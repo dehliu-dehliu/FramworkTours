@@ -28,8 +28,7 @@ public class TestCase_TourSignon {
 	TourFindFlightsPage tffp;
 	TourReserveFlightsPage trfp;
 	TourBookFlightsPage tbfp;
-	TourFlightConfirmationPage tfcp;
-	
+	TourFlightConfirmationPage tfcp;	
 	
   @Test
   public void welcomePageLinks() {
@@ -80,7 +79,7 @@ public class TestCase_TourSignon {
 		
 		twp = new TourWelcomePage(driver);
 				
-		System.out.println("Page objects are initialized");
+		System.out.println("ALL Page objects are initialized");
 		
 		driver.get("http://newtours.demoaut.com");
 		driver.manage().window().maximize();
@@ -95,5 +94,4 @@ public class TestCase_TourSignon {
 		Screenshot.takeScreenshot(driver, "tearDown"); 
 		driver.quit();	
 	}
-
 }
