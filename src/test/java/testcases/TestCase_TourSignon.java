@@ -79,7 +79,7 @@ public class TestCase_TourSignon {
 		
 		twp = new TourWelcomePage(driver);
 				
-		System.out.println("ALL Page objects are initialized");
+		System.out.println("ALL Pages objects are initialized");
 		
 		driver.get("http://newtours.demoaut.com");
 		driver.manage().window().maximize();
