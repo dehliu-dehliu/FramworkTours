@@ -1,0 +1,10 @@
+pages\TourWelcomePage.class
+pages\TourReserveFlightsPage.class
+pages\TourFlightConfirmationPage.class
+pages\TourSelectFlightsPage.class
+pages\TourBookFlightsPage.class
+testcases\TestCase_TourSignon.class
+utilities\Screenshot.class
+testcases\TestCase_FindSelectBookFlights.class
+pages\TourFindFlightsPage.class
+pages\TourSignonPage.class
