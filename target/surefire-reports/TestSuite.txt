@@ -1,4 +1,62 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.658 s - in TestSuite
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 39.547 s <<< FAILURE! - in TestSuite
+testcases.TestCase_TourSignon.singon  Time elapsed: 9.457 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IQTEBF1', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JH\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c2d3e5cbcbdb669b43a7a7205a0e900
+	at testcases.TestCase_TourSignon.singon(TestCase_TourSignon.java:44)
+
+testcases.TestCase_TourSignon.findAvailableFlights  Time elapsed: 6.089 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IQTEBF1', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JH\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c2d3e5cbcbdb669b43a7a7205a0e900
+*** Element info: {Using=xpath, value=//input[@name='findFlights']}
+	at testcases.TestCase_TourSignon.findAvailableFlights(TestCase_TourSignon.java:51)
+
+testcases.TestCase_TourSignon.reserveFlights  Time elapsed: 6.131 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IQTEBF1', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JH\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c2d3e5cbcbdb669b43a7a7205a0e900
+*** Element info: {Using=xpath, value=//input[@name='outFlight'][@value='Pangea Airlines$362$274$9:17']}
+	at testcases.TestCase_TourSignon.reserveFlights(TestCase_TourSignon.java:59)
+
+testcases.TestCase_TourSignon.bookFlights  Time elapsed: 4.087 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IQTEBF1', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JH\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c2d3e5cbcbdb669b43a7a7205a0e900
+*** Element info: {Using=xpath, value=//font[contains(text(),'Summary')]}
+	at testcases.TestCase_TourSignon.bookFlights(TestCase_TourSignon.java:66)
+
+testcases.TestCase_TourSignon.tearDown  Time elapsed: 10.263 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IQTEBF1', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JH\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c2d3e5cbcbdb669b43a7a7205a0e900
+	at testcases.TestCase_TourSignon.tearDown(TestCase_TourSignon.java:92)
+
