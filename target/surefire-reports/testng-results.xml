@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17095" started-at="2019-11-30T20:35:32Z" finished-at="2019-11-30T20:35:50Z">
+  <suite name="Suite" duration-ms="17614" started-at="2019-12-03T01:55:32Z" finished-at="2019-12-03T01:55:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17095" started-at="2019-11-30T20:35:32Z" finished-at="2019-11-30T20:35:50Z">
+    <test name="Test" duration-ms="17614" started-at="2019-12-03T01:55:32Z" finished-at="2019-12-03T01:55:49Z">
       <class name="testcases.TestCase_TourSignon">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TestCase_TourSignon@6be46e8f]" name="setup" is-config="true" duration-ms="8646" started-at="2019-11-30T20:35:24Z" finished-at="2019-11-30T20:35:32Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TestCase_TourSignon@6be46e8f]" name="setup" is-config="true" duration-ms="7969" started-at="2019-12-03T01:55:24Z" finished-at="2019-12-03T01:55:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="welcomePageLinks()[pri:0, instance:testcases.TestCase_TourSignon@6be46e8f]" name="welcomePageLinks" duration-ms="689" started-at="2019-11-30T20:35:32Z" finished-at="2019-11-30T20:35:33Z">
+        <test-method status="PASS" signature="welcomePageLinks()[pri:0, instance:testcases.TestCase_TourSignon@6be46e8f]" name="welcomePageLinks" duration-ms="719" started-at="2019-12-03T01:55:32Z" finished-at="2019-12-03T01:55:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcomePageLinks -->
-        <test-method status="PASS" signature="singon()[pri:1, instance:testcases.TestCase_TourSignon@6be46e8f]" name="singon" duration-ms="7478" started-at="2019-11-30T20:35:33Z" finished-at="2019-11-30T20:35:41Z">
+        <test-method status="PASS" signature="singon()[pri:1, instance:testcases.TestCase_TourSignon@6be46e8f]" name="singon" duration-ms="8106" started-at="2019-12-03T01:55:32Z" finished-at="2019-12-03T01:55:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singon -->
-        <test-method status="PASS" signature="findAvailableFlights()[pri:2, instance:testcases.TestCase_TourSignon@6be46e8f]" name="findAvailableFlights" duration-ms="3092" started-at="2019-11-30T20:35:41Z" description="find available flights with provided search criteria" finished-at="2019-11-30T20:35:44Z">
+        <test-method status="PASS" signature="findAvailableFlights()[pri:2, instance:testcases.TestCase_TourSignon@6be46e8f]" name="findAvailableFlights" duration-ms="2708" started-at="2019-12-03T01:55:41Z" description="find available flights with provided search criteria" finished-at="2019-12-03T01:55:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findAvailableFlights -->
-        <test-method status="PASS" signature="reserveFlights()[pri:3, instance:testcases.TestCase_TourSignon@6be46e8f]" name="reserveFlights" duration-ms="2049" started-at="2019-11-30T20:35:44Z" description="Select and sreserve available flight(s)" finished-at="2019-11-30T20:35:46Z">
+        <test-method status="PASS" signature="reserveFlights()[pri:3, instance:testcases.TestCase_TourSignon@6be46e8f]" name="reserveFlights" duration-ms="1746" started-at="2019-12-03T01:55:43Z" description="Select and sreserve available flight(s)" finished-at="2019-12-03T01:55:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reserveFlights -->
-        <test-method status="PASS" signature="bookFlights()[pri:4, instance:testcases.TestCase_TourSignon@6be46e8f]" name="bookFlights" duration-ms="3751" started-at="2019-11-30T20:35:46Z" description="Book reserved flight(s)" finished-at="2019-11-30T20:35:50Z">
+        <test-method status="PASS" signature="bookFlights()[pri:4, instance:testcases.TestCase_TourSignon@6be46e8f]" name="bookFlights" duration-ms="4308" started-at="2019-12-03T01:55:45Z" description="Book reserved flight(s)" finished-at="2019-12-03T01:55:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlights -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestCase_TourSignon@6be46e8f]" name="tearDown" is-config="true" duration-ms="1350" started-at="2019-11-30T20:35:50Z" finished-at="2019-11-30T20:35:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TestCase_TourSignon@6be46e8f]" name="tearDown" is-config="true" duration-ms="1684" started-at="2019-12-03T01:55:49Z" finished-at="2019-12-03T01:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
